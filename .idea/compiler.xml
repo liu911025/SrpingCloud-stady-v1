@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-client" />
         <module name="eureka-server" />
+        <module name="ribbon-consumer" />
         <module name="SpringCloud-study" />
       </profile>
     </annotationProcessing>
@@ -17,6 +18,7 @@
       <module name="SpringCloud-study" options="" />
       <module name="eureka-client" options="" />
       <module name="eureka-server" options="" />
+      <module name="ribbon-consumer" options="" />
     </option>
   </component>
 </project>
