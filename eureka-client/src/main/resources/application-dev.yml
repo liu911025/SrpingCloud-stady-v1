@@ -1,8 +1,9 @@
 server:
-  port: 8081
+  port: 9000
 spring:
   application:
     name: hello-server
+
 eureka:
   instance:
     hostname: localhost
@@ -10,4 +11,8 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://${eureka.instance.hostname}:1111/eureka,http://${eureka.instance.hostname}:1112/eureka
+      defaultZone: http://localhost:1110/eureka
+
+logging:
+  level: info
+  file: docker/log/logfile.log

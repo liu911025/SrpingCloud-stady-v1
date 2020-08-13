@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-client" />
-        <module name="eureka-server" />
         <module name="ribbon-consumer" />
         <module name="SpringCloud-study" />
+        <module name="eureka-client" />
+        <module name="eureka-server" />
       </profile>
     </annotationProcessing>
   </component>

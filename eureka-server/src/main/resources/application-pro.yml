@@ -1,5 +1,5 @@
 server:
-  port: 1112
+  port: 1111
 
 spring:
   application:
@@ -12,4 +12,6 @@ eureka:
     register-with-eureka: true     # 注册中心不向自己注册
     fetch-registry: true           # 注册中心职责维护服务实例, 不需要去检索
     service-url:
-      defaultZone: http://${eureka.instance.hostname}:1111/eureka
+      defaultZone: http://${eureka.instance.hostname}:1110/eureka
+  server:
+    enable-self-preservation: false

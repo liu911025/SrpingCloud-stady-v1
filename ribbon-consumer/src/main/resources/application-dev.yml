@@ -1,5 +1,5 @@
 server:
-  port: 9000
+  port: 8081
 spring:
   application:
     name: ribbon-consumer
@@ -9,4 +9,4 @@ eureka:
     hostname: localhost
   client:
     service-url:
-      defaultZone: http://${eureka.instance.hostname}:1111/eureka,http://${eureka.instance.hostname}:1112/eureka
+      defaultZone: http://localhost:1110/eureka
