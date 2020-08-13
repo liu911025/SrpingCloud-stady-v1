@@ -4,25 +4,55 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12006f7f-6ea0-4ba8-a8f7-c631370c0d41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/SpringCloud-study-v1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-consumer/src/main/resources/application-pro.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-consumer/src/main/resources/logback-spring.xml" afterDir="false" />
+    <list default="true" id="12006f7f-6ea0-4ba8-a8f7-c631370c0d41" name="Default Changelist" comment="提交">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/java/com/study/eureka/client/EurekaClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/java/com/study/eureka/client/EurekaClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/java/com/study/eureka/client/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/java/com/study/eureka/client/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/resources/application-pro.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application-pro.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application-pro.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application-pro.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ribbon-consumer/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon-consumer/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/java/com/study/eureka/client/EurekaClientApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/java/com/study/eureka/client/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/resources/application-pro.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/resources/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/src/test/java/com/study/eureka/client/EurekaClientApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/java/com/study/eureka/server/eurekaserver/EurekaServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application-pro.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/test/java/com/study/eureka/server/eurekaserver/EurekaServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-consumer/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-consumer/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-consumer/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-consumer/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-consumer/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-consumer/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-consumer/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-consumer/src/main/java/com/study/ribbon/consumer/RibbonConsumerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-consumer/src/main/java/com/study/ribbon/consumer/controller/ConsumerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-consumer/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-consumer/src/main/resources/application-pro.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-consumer/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-consumer/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-consumer/src/main/resources/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-consumer/src/test/java/com/study/ribbon/consumer/RibbonConsumerApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,6 +258,7 @@
       <workItem from="1597197152438" duration="3324000" />
       <workItem from="1597204030210" duration="2465000" />
       <workItem from="1597215215149" duration="3648000" />
+      <workItem from="1597285575601" duration="1576000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1595496895340</created>
@@ -243,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595836097005</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="提交">
+      <created>1597285675818</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597285675818</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,22 +305,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="689" y="333" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597203882115" />
-    <state width="1573" height="355" key="GridCell.Tab.0.bottom" timestamp="1597220057590">
+    <state x="482" y="105" key="CommitChangelistDialog2" timestamp="1597285713534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1573" height="355" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597220057590" />
-    <state width="1573" height="355" key="GridCell.Tab.0.center" timestamp="1597220057590">
+    <state x="482" y="105" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597285713534" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1597287103212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1573" height="355" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597220057590" />
-    <state width="1573" height="355" key="GridCell.Tab.0.left" timestamp="1597220057589">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597287103212" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1597287103212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1573" height="355" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597220057589" />
-    <state width="1573" height="355" key="GridCell.Tab.0.right" timestamp="1597220057590">
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597287103212" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1597287103212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1573" height="355" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597220057590" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597287103212" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1597287103212">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597287103212" />
     <state width="1573" height="355" key="GridCell.Tab.1.bottom" timestamp="1597220057590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -315,6 +357,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1573" height="355" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597220057590" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1597286454710">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597286454710" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1597204018149">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

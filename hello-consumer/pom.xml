@@ -7,11 +7,10 @@
         <artifactId>SpringCloud-study</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-
-    <groupId>com.study.eureka.server</groupId>
-    <artifactId>eureka-server</artifactId>
+    <groupId>com.study.ribbon.consumer</groupId>
+    <artifactId>hello-consumer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>eureka-server</name>
+    <name>hello-consumer</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -20,24 +19,35 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka-server</artifactId>
-        </dependency>
-        <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-ribbon</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
-            <!--<scope>test</scope>
+            <scope>test</scope>
             <exclusions>
                 <exclusion>
                     <groupId>org.junit.vintage</groupId>
                     <artifactId>junit-vintage-engine</artifactId>
                 </exclusion>
-            </exclusions>-->
+            </exclusions>
         </dependency>
     </dependencies>
 
